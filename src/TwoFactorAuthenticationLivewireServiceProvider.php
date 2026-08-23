@@ -12,7 +12,6 @@ final class TwoFactorAuthenticationLivewireServiceProvider extends ServiceProvid
     public function boot(): void
     {
         $this->loadViewsFrom(__DIR__.'/../resources/views', 'two-factor-authentication-livewire');
-        Livewire\Livewire::component('two-factor-authentication-livewire-overview', Liberu\Foundation\TwoFactorAuthenticationLivewire\Livewire\Overview::class);
+        Livewire::component('two-factor-authentication-livewire-overview', Liberu\Foundation\TwoFactorAuthenticationLivewire\Livewire\Overview::class);
     }
 }
-

@@ -3,7 +3,7 @@
   "name": "two-factor-authentication-livewire",
   "display_name": "Two-Factor Authentication Livewire",
   "description": "Two-Factor Authentication livewire presentation adapter.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "category": "presentation",
   "provider": "Liberu\\Foundation\\TwoFactorAuthenticationLivewire\\TwoFactorAuthenticationLivewireServiceProvider",
   "requires": {
@@ -24,4 +24,3 @@
     "Accessible loading, empty, denied, and failure states"
   ]
 }
-
